@@ -7,8 +7,8 @@ import os
 app = FastAPI()
 
 # AWS Credentials (Replace with your actual keys)
-AWS_ACCESS_KEY = os.getenv("AWS_ACCESS_KEY_ID")
-AWS_SECRET_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
+AWS_ACCESS_KEY = os.getenv("AWS_ACCESS_KEY")
+AWS_SECRET_KEY = os.getenv("AWS_SECRET_KEY")
 # Default to us-east-1 if not set
 AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 
