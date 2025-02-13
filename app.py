@@ -2,6 +2,7 @@ import boto3
 from fastapi import FastAPI, File, UploadFile
 import cv2
 import numpy as np
+import os
 
 app = FastAPI()
 
